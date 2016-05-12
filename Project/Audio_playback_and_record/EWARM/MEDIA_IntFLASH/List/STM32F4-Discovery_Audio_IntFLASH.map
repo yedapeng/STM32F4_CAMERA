@@ -1,0 +1,473 @@
+###############################################################################
+#
+# IAR ELF Linker V7.10.3.6832/W32 for ARM                 24/Jun/2014  23:28:38
+# Copyright 2007-2014 IAR Systems AB.
+#
+#    Output file  =  
+#        C:\Users\yedapeng\Downloads\stsw-stm32068.zip\STM32F4-Discovery_FW_V1.1.0\Project\Audio_playback_and_record\EWARM\MEDIA_IntFLASH\Exe\STM32F4-Discovery_Audio_IntFLASH.out
+#    Map file     =  
+#        C:\Users\yedapeng\Downloads\stsw-stm32068.zip\STM32F4-Discovery_FW_V1.1.0\Project\Audio_playback_and_record\EWARM\MEDIA_IntFLASH\List\STM32F4-Discovery_Audio_IntFLASH.map
+#    Command line =  
+#        C:\Users\yedapeng\Downloads\stsw-stm32068.zip\STM32F4-Discovery_FW_V1.1.0\Project\Audio_playback_and_record\EWARM\MEDIA_IntFLASH\Obj\audio_sample.o
+#        C:\Users\yedapeng\Downloads\stsw-stm32068.zip\STM32F4-Discovery_FW_V1.1.0\Utilities\STM32F4-Discovery\libPDMFilter_IAR.a
+#        C:\Users\yedapeng\Downloads\stsw-stm32068.zip\STM32F4-Discovery_FW_V1.1.0\Project\Audio_playback_and_record\EWARM\MEDIA_IntFLASH\Obj\main.o
+#        C:\Users\yedapeng\Downloads\stsw-stm32068.zip\STM32F4-Discovery_FW_V1.1.0\Project\Audio_playback_and_record\EWARM\MEDIA_IntFLASH\Obj\misc.o
+#        C:\Users\yedapeng\Downloads\stsw-stm32068.zip\STM32F4-Discovery_FW_V1.1.0\Project\Audio_playback_and_record\EWARM\MEDIA_IntFLASH\Obj\startup_stm32f4xx.o
+#        C:\Users\yedapeng\Downloads\stsw-stm32068.zip\STM32F4-Discovery_FW_V1.1.0\Project\Audio_playback_and_record\EWARM\MEDIA_IntFLASH\Obj\stm32f4_discovery.o
+#        C:\Users\yedapeng\Downloads\stsw-stm32068.zip\STM32F4-Discovery_FW_V1.1.0\Project\Audio_playback_and_record\EWARM\MEDIA_IntFLASH\Obj\stm32f4_discovery_audio_codec.o
+#        C:\Users\yedapeng\Downloads\stsw-stm32068.zip\STM32F4-Discovery_FW_V1.1.0\Project\Audio_playback_and_record\EWARM\MEDIA_IntFLASH\Obj\stm32f4_discovery_lis302dl.o
+#        C:\Users\yedapeng\Downloads\stsw-stm32068.zip\STM32F4-Discovery_FW_V1.1.0\Project\Audio_playback_and_record\EWARM\MEDIA_IntFLASH\Obj\stm32f4xx_dac.o
+#        C:\Users\yedapeng\Downloads\stsw-stm32068.zip\STM32F4-Discovery_FW_V1.1.0\Project\Audio_playback_and_record\EWARM\MEDIA_IntFLASH\Obj\stm32f4xx_dma.o
+#        C:\Users\yedapeng\Downloads\stsw-stm32068.zip\STM32F4-Discovery_FW_V1.1.0\Project\Audio_playback_and_record\EWARM\MEDIA_IntFLASH\Obj\stm32f4xx_exti.o
+#        C:\Users\yedapeng\Downloads\stsw-stm32068.zip\STM32F4-Discovery_FW_V1.1.0\Project\Audio_playback_and_record\EWARM\MEDIA_IntFLASH\Obj\stm32f4xx_gpio.o
+#        C:\Users\yedapeng\Downloads\stsw-stm32068.zip\STM32F4-Discovery_FW_V1.1.0\Project\Audio_playback_and_record\EWARM\MEDIA_IntFLASH\Obj\stm32f4xx_i2c.o
+#        C:\Users\yedapeng\Downloads\stsw-stm32068.zip\STM32F4-Discovery_FW_V1.1.0\Project\Audio_playback_and_record\EWARM\MEDIA_IntFLASH\Obj\stm32f4xx_it.o
+#        C:\Users\yedapeng\Downloads\stsw-stm32068.zip\STM32F4-Discovery_FW_V1.1.0\Project\Audio_playback_and_record\EWARM\MEDIA_IntFLASH\Obj\stm32f4xx_pwr.o
+#        C:\Users\yedapeng\Downloads\stsw-stm32068.zip\STM32F4-Discovery_FW_V1.1.0\Project\Audio_playback_and_record\EWARM\MEDIA_IntFLASH\Obj\stm32f4xx_rcc.o
+#        C:\Users\yedapeng\Downloads\stsw-stm32068.zip\STM32F4-Discovery_FW_V1.1.0\Project\Audio_playback_and_record\EWARM\MEDIA_IntFLASH\Obj\stm32f4xx_rtc.o
+#        C:\Users\yedapeng\Downloads\stsw-stm32068.zip\STM32F4-Discovery_FW_V1.1.0\Project\Audio_playback_and_record\EWARM\MEDIA_IntFLASH\Obj\stm32f4xx_spi.o
+#        C:\Users\yedapeng\Downloads\stsw-stm32068.zip\STM32F4-Discovery_FW_V1.1.0\Project\Audio_playback_and_record\EWARM\MEDIA_IntFLASH\Obj\stm32f4xx_syscfg.o
+#        C:\Users\yedapeng\Downloads\stsw-stm32068.zip\STM32F4-Discovery_FW_V1.1.0\Project\Audio_playback_and_record\EWARM\MEDIA_IntFLASH\Obj\stm32f4xx_tim.o
+#        C:\Users\yedapeng\Downloads\stsw-stm32068.zip\STM32F4-Discovery_FW_V1.1.0\Project\Audio_playback_and_record\EWARM\MEDIA_IntFLASH\Obj\system_stm32f4xx.o
+#        C:\Users\yedapeng\Downloads\stsw-stm32068.zip\STM32F4-Discovery_FW_V1.1.0\Project\Audio_playback_and_record\EWARM\MEDIA_IntFLASH\Obj\waveplayer.o
+#        --redirect _Printf=_PrintfSmall --redirect _Scanf=_ScanfSmall -o
+#        C:\Users\yedapeng\Downloads\stsw-stm32068.zip\STM32F4-Discovery_FW_V1.1.0\Project\Audio_playback_and_record\EWARM\MEDIA_IntFLASH\Exe\STM32F4-Discovery_Audio_IntFLASH.out
+#        --map
+#        C:\Users\yedapeng\Downloads\stsw-stm32068.zip\STM32F4-Discovery_FW_V1.1.0\Project\Audio_playback_and_record\EWARM\MEDIA_IntFLASH\List\STM32F4-Discovery_Audio_IntFLASH.map
+#        --config
+#        C:\Users\yedapeng\Downloads\stsw-stm32068.zip\STM32F4-Discovery_FW_V1.1.0\Project\Audio_playback_and_record\EWARM\stm32f4xx_flash.icf
+#        --semihosting --entry __iar_program_start --vfe
+#
+###############################################################################
+
+*******************************************************************************
+*** RUNTIME MODEL ATTRIBUTES
+***
+
+CppFlavor       = *
+__SystemLibrary = DLib
+
+
+*******************************************************************************
+*** PLACEMENT SUMMARY
+***
+
+"A1":  place at 0x08000000 { ro section .intvec };
+"P1":  place in [from 0x08000000 to 0x080fffff] { ro };
+"P2":  place in [from 0x20000000 to 0x2001ffff] { rw, block CSTACK, block HEAP };
+
+  Section            Kind        Address     Size  Object
+  -------            ----        -------     ----  ------
+"A1":                                       0x188
+  .intvec            ro code  0x08000000    0x188  startup_stm32f4xx.o [1]
+                            - 0x08000188    0x188
+
+"P1":                                     0xf7054
+  .rodata            const    0x08000188  0xf4f78  audio_sample.o [1]
+  .text              ro code  0x080f5100    0xa48  stm32f4_discovery_audio_codec.o [1]
+  .text              ro code  0x080f5b48    0x214  stm32f4xx_dma.o [1]
+  .text              ro code  0x080f5d5c    0x1c8  stm32f4xx_spi.o [1]
+  .text              ro code  0x080f5f24     0xac  stm32f4xx_gpio.o [1]
+  .text              ro code  0x080f5fd0    0x1e4  waveplayer.o [1]
+  .text              ro code  0x080f61b4     0x60  stm32f4xx_dac.o [1]
+  .text              ro code  0x080f6214    0x100  stm32f4xx_rcc.o [1]
+  .text              ro code  0x080f6314    0x1de  stm32f4xx_i2c.o [1]
+  .text              ro code  0x080f64f2     0x2e  copy_init3.o [5]
+  .text              ro code  0x080f6520     0x7c  misc.o [1]
+  .text              ro code  0x080f659c    0x348  stm32f4_discovery_lis302dl.o [1]
+  .text              ro code  0x080f68e4     0x28  stm32f4xx_syscfg.o [1]
+  .text              ro code  0x080f690c     0x90  stm32f4xx_exti.o [1]
+  .text              ro code  0x080f699c    0x164  stm32f4xx_tim.o [1]
+  .text              ro code  0x080f6b00    0x128  stm32f4xx_it.o [1]
+  .text              ro code  0x080f6c28     0x9c  stm32f4_discovery.o [1]
+  .text              ro code  0x080f6cc4    0x124  main.o [1]
+  .text              ro code  0x080f6de8    0x108  system_stm32f4xx.o [1]
+  .text              ro code  0x080f6ef0     0x28  data_init.o [5]
+  .text              ro code  0x080f6f18     0x22  zero_init3.o [5]
+  .iar.init_table    const    0x080f6f3c     0x24  - Linker created -
+  .text              ro code  0x080f6f60     0x1a  fpinit_M.o [4]
+  .text              ro code  0x080f6f7c     0x1a  cmain.o [5]
+  .text              ro code  0x080f6f96      0x4  low_level_init.o [3]
+  .text              ro code  0x080f6f9a      0x4  exit.o [3]
+  .text              ro code  0x080f6fa0      0xa  cexit.o [5]
+  .text              ro code  0x080f6fac     0x14  exit.o [6]
+  .text              ro code  0x080f6fc0     0x10  startup_stm32f4xx.o [1]
+  .text              ro code  0x080f6fd0      0xc  cstartup_M.o [5]
+  .text              ro code  0x080f6fdc      0x4  startup_stm32f4xx.o [1]
+  .text              ro code  0x080f6fe0      0x4  startup_stm32f4xx.o [1]
+  .text              ro code  0x080f6fe4      0x4  startup_stm32f4xx.o [1]
+  .text              ro code  0x080f6fe8      0x4  startup_stm32f4xx.o [1]
+  .text              ro code  0x080f6fec      0x4  startup_stm32f4xx.o [1]
+  .text              ro code  0x080f6ff0      0x4  startup_stm32f4xx.o [1]
+  .text              ro code  0x080f6ff4      0x4  startup_stm32f4xx.o [1]
+  .text              ro code  0x080f6ff8      0x4  startup_stm32f4xx.o [1]
+  .text              ro code  0x080f6ffc      0x4  startup_stm32f4xx.o [1]
+  .text              ro code  0x080f7000      0x4  startup_stm32f4xx.o [1]
+  .text              ro code  0x080f7004      0x4  startup_stm32f4xx.o [1]
+  .text              ro code  0x080f7008      0x4  startup_stm32f4xx.o [1]
+  .text              ro code  0x080f700c      0x4  startup_stm32f4xx.o [1]
+  .text              ro code  0x080f7010      0x4  startup_stm32f4xx.o [1]
+  .text              ro code  0x080f7014      0x4  startup_stm32f4xx.o [1]
+  .text              ro code  0x080f7018      0x4  startup_stm32f4xx.o [1]
+  .text              ro code  0x080f701c      0x4  startup_stm32f4xx.o [1]
+  .text              ro code  0x080f7020      0x4  startup_stm32f4xx.o [1]
+  .text              ro code  0x080f7024      0x4  startup_stm32f4xx.o [1]
+  .text              ro code  0x080f7028      0x4  startup_stm32f4xx.o [1]
+  .text              ro code  0x080f702c      0x4  startup_stm32f4xx.o [1]
+  .text              ro code  0x080f7030      0x4  startup_stm32f4xx.o [1]
+  .text              ro code  0x080f7034      0x4  startup_stm32f4xx.o [1]
+  .text              ro code  0x080f7038      0x4  startup_stm32f4xx.o [1]
+  .text              ro code  0x080f703c      0x4  startup_stm32f4xx.o [1]
+  .text              ro code  0x080f7040      0x4  startup_stm32f4xx.o [1]
+  .text              ro code  0x080f7044      0x4  startup_stm32f4xx.o [1]
+  .text              ro code  0x080f7048      0x4  startup_stm32f4xx.o [1]
+  .text              ro code  0x080f704c      0x4  startup_stm32f4xx.o [1]
+  .text              ro code  0x080f7050      0x4  startup_stm32f4xx.o [1]
+  .text              ro code  0x080f7054      0x4  startup_stm32f4xx.o [1]
+  .text              ro code  0x080f7058      0x4  startup_stm32f4xx.o [1]
+  .text              ro code  0x080f705c      0x4  startup_stm32f4xx.o [1]
+  .text              ro code  0x080f7060      0x4  startup_stm32f4xx.o [1]
+  .text              ro code  0x080f7064      0x4  startup_stm32f4xx.o [1]
+  .text              ro code  0x080f7068      0x4  startup_stm32f4xx.o [1]
+  .text              ro code  0x080f706c      0x4  startup_stm32f4xx.o [1]
+  .text              ro code  0x080f7070      0x4  startup_stm32f4xx.o [1]
+  .text              ro code  0x080f7074      0x4  startup_stm32f4xx.o [1]
+  .text              ro code  0x080f7078      0x4  startup_stm32f4xx.o [1]
+  .text              ro code  0x080f707c      0x4  startup_stm32f4xx.o [1]
+  .text              ro code  0x080f7080      0x4  startup_stm32f4xx.o [1]
+  .text              ro code  0x080f7084      0x4  startup_stm32f4xx.o [1]
+  .text              ro code  0x080f7088      0x4  startup_stm32f4xx.o [1]
+  .text              ro code  0x080f708c      0x4  startup_stm32f4xx.o [1]
+  .text              ro code  0x080f7090      0x4  startup_stm32f4xx.o [1]
+  .text              ro code  0x080f7094      0x4  startup_stm32f4xx.o [1]
+  .text              ro code  0x080f7098      0x4  startup_stm32f4xx.o [1]
+  .text              ro code  0x080f709c      0x4  startup_stm32f4xx.o [1]
+  .text              ro code  0x080f70a0      0x4  startup_stm32f4xx.o [1]
+  .text              ro code  0x080f70a4      0x4  startup_stm32f4xx.o [1]
+  .text              ro code  0x080f70a8      0x4  startup_stm32f4xx.o [1]
+  .text              ro code  0x080f70ac      0x4  startup_stm32f4xx.o [1]
+  .text              ro code  0x080f70b0      0x4  startup_stm32f4xx.o [1]
+  .text              ro code  0x080f70b4      0x4  startup_stm32f4xx.o [1]
+  .text              ro code  0x080f70b8      0x4  startup_stm32f4xx.o [1]
+  .text              ro code  0x080f70bc      0x4  startup_stm32f4xx.o [1]
+  .text              ro code  0x080f70c0      0x4  startup_stm32f4xx.o [1]
+  .text              ro code  0x080f70c4      0x4  startup_stm32f4xx.o [1]
+  .text              ro code  0x080f70c8      0x4  startup_stm32f4xx.o [1]
+  .text              ro code  0x080f70cc      0x4  startup_stm32f4xx.o [1]
+  .text              ro code  0x080f70d0      0x4  startup_stm32f4xx.o [1]
+  .text              ro code  0x080f70d4      0x4  startup_stm32f4xx.o [1]
+  .text              ro code  0x080f70d8      0x4  startup_stm32f4xx.o [1]
+  .text              ro code  0x080f70dc      0x4  startup_stm32f4xx.o [1]
+  .text              ro code  0x080f70e0      0x4  startup_stm32f4xx.o [1]
+  .text              ro code  0x080f70e4      0x4  startup_stm32f4xx.o [1]
+  .text              ro code  0x080f70e8      0x4  startup_stm32f4xx.o [1]
+  .text              ro code  0x080f70ec      0x4  startup_stm32f4xx.o [1]
+  .text              ro code  0x080f70f0      0x4  startup_stm32f4xx.o [1]
+  .text              ro code  0x080f70f4      0x4  startup_stm32f4xx.o [1]
+  .text              ro code  0x080f70f8      0x4  startup_stm32f4xx.o [1]
+  .text              ro code  0x080f70fc      0x4  startup_stm32f4xx.o [1]
+  .text              ro code  0x080f7100      0x4  startup_stm32f4xx.o [1]
+  .text              ro code  0x080f7104      0x4  startup_stm32f4xx.o [1]
+  .text              ro code  0x080f7108      0x4  startup_stm32f4xx.o [1]
+  .text              ro code  0x080f710c      0x4  startup_stm32f4xx.o [1]
+  .rodata            const    0x080f7110      0x0  zero_init3.o [5]
+  .rodata            const    0x080f7110      0x0  copy_init3.o [5]
+  Initializer bytes  ro data  0x080f7110     0xcc  <for P2 s0>
+                            - 0x080f71dc  0xf7054
+
+"P2", part 1 of 3:                           0xcc
+  P2 s0                       0x20000000     0xcc  <Init block>
+    .data            inited   0x20000000     0x78  stm32f4_discovery_audio_codec.o [1]
+    .data            inited   0x20000078     0x14  main.o [1]
+    .data            inited   0x2000008c     0x14  system_stm32f4xx.o [1]
+    .data            inited   0x200000a0     0x10  stm32f4_discovery.o [1]
+    .data            inited   0x200000b0     0x10  stm32f4xx_rcc.o [1]
+    .data            inited   0x200000c0      0x4  stm32f4_discovery_audio_codec.o [1]
+    .data            inited   0x200000c4      0x4  stm32f4_discovery_lis302dl.o [1]
+    .data            inited   0x200000c8      0x2  stm32f4xx_it.o [1]
+    .data            inited   0x200000ca      0x1  waveplayer.o [1]
+                            - 0x200000cc     0xcc
+
+"P2", part 2 of 3:                           0x14
+  .bss               zero     0x200000cc      0x8  waveplayer.o [1]
+  .bss               zero     0x200000d4      0x4  stm32f4xx_it.o [1]
+  .bss               zero     0x200000d8      0x4  waveplayer.o [1]
+  .bss               zero     0x200000dc      0x1  waveplayer.o [1]
+                            - 0x200000dd     0x11
+
+"P2", part 3 of 3:                          0x400
+  CSTACK                      0x200000e0    0x400  <Block>
+    CSTACK           uninit   0x200000e0    0x400  <Block tail>
+                            - 0x200004e0    0x400
+
+
+*******************************************************************************
+*** INIT TABLE
+***
+
+          Address     Size
+          -------     ----
+Zero (__iar_zero_init3)
+    1 destination range, total size 0x11:
+          0x200000cc  0x11
+
+Copy (__iar_copy_init3)
+    1 source range, total size 0xcc (100% of destination):
+          0x080f7110  0xcc
+    1 destination range, total size 0xcb:
+          0x20000000  0xcb
+
+
+
+*******************************************************************************
+*** MODULE SUMMARY
+***
+
+    Module                           ro code    ro data  rw data
+    ------                           -------    -------  -------
+C:\Users\yedapeng\Downloads\stsw-stm32068.zip\STM32F4-Discovery_FW_V1.1.0\Project\Audio_playback_and_record\EWARM\MEDIA_IntFLASH\Obj: [1]
+    audio_sample.o                            1 003 384
+    main.o                               292         20       20
+    misc.o                               124
+    startup_stm32f4xx.o                  716
+    stm32f4_discovery.o                  156         16       16
+    stm32f4_discovery_audio_codec.o    2 632        124      124
+    stm32f4_discovery_lis302dl.o         840          4        4
+    stm32f4xx_dac.o                       96
+    stm32f4xx_dma.o                      532
+    stm32f4xx_exti.o                     144
+    stm32f4xx_gpio.o                     172
+    stm32f4xx_i2c.o                      478
+    stm32f4xx_it.o                       296          2        6
+    stm32f4xx_rcc.o                      256         16       16
+    stm32f4xx_spi.o                      456
+    stm32f4xx_syscfg.o                    40
+    stm32f4xx_tim.o                      356
+    system_stm32f4xx.o                   264         20       20
+    waveplayer.o                         484          1       14
+    ------------------------------------------------------------
+    Total:                             8 334  1 003 587      220
+
+command line: [2]
+    ------------------------------------------------------------
+    Total:
+
+dl7M_tln.a: [3]
+    exit.o                                 4
+    low_level_init.o                       4
+    ------------------------------------------------------------
+    Total:                                 8
+
+m7M_tlv.a: [4]
+    fpinit_M.o                            26
+    ------------------------------------------------------------
+    Total:                                26
+
+rt7M_tl.a: [5]
+    cexit.o                               10
+    cmain.o                               26
+    copy_init3.o                          46
+    cstartup_M.o                          12
+    data_init.o                           40
+    zero_init3.o                          34
+    ------------------------------------------------------------
+    Total:                               168
+
+shb_l.a: [6]
+    exit.o                                20
+    ------------------------------------------------------------
+    Total:                                20
+
+    Gaps                                   6          2
+    Linker created                                   37    1 024
+----------------------------------------------------------------
+    Grand Total:                       8 562  1 003 626    1 244
+
+
+*******************************************************************************
+*** ENTRY LIST
+***
+
+Entry                      Address     Size  Type      Object
+-----                      -------     ----  ----      ------
+?main                   0x080f6f7d           Code  Gb  cmain.o [5]
+AHBPrescTable           0x20000090     0x10  Data  Gb  system_stm32f4xx.o [1]
+APBAHBPrescTable        0x200000b0     0x10  Data  Lc  stm32f4xx_rcc.o [1]
+AUDIO_MAL_DMA_CHANNEL   0x2000005c      0x4  Data  Gb  stm32f4_discovery_audio_codec.o [1]
+AUDIO_MAL_DMA_CLOCK     0x20000050      0x4  Data  Gb  stm32f4_discovery_audio_codec.o [1]
+AUDIO_MAL_DMA_DREG      0x20000058      0x4  Data  Gb  stm32f4_discovery_audio_codec.o [1]
+AUDIO_MAL_DMA_FLAG_DME  0x20000074      0x4  Data  Gb  stm32f4_discovery_audio_codec.o [1]
+AUDIO_MAL_DMA_FLAG_FE   0x2000006c      0x4  Data  Gb  stm32f4_discovery_audio_codec.o [1]
+AUDIO_MAL_DMA_FLAG_HT   0x20000068      0x4  Data  Gb  stm32f4_discovery_audio_codec.o [1]
+AUDIO_MAL_DMA_FLAG_TC   0x20000064      0x4  Data  Gb  stm32f4_discovery_audio_codec.o [1]
+AUDIO_MAL_DMA_FLAG_TE   0x20000070      0x4  Data  Gb  stm32f4_discovery_audio_codec.o [1]
+AUDIO_MAL_DMA_IRQ       0x20000060      0x4  Data  Gb  stm32f4_discovery_audio_codec.o [1]
+AUDIO_MAL_DMA_STREAM    0x20000054      0x4  Data  Gb  stm32f4_discovery_audio_codec.o [1]
+AUDIO_SAMPLE            0x08000188  0xf4f78  Data  Gb  audio_sample.o [1]
+AudioPlayStart          0x200000dc      0x1  Data  Gb  waveplayer.o [1]
+AudioRemSize            0x20000044      0x4  Data  Gb  stm32f4_discovery_audio_codec.o [1]
+AudioTotalSize          0x20000040      0x4  Data  Gb  stm32f4_discovery_audio_codec.o [1]
+Audio_MAL_Init          0x080f59c9     0xd4  Code  Lc  stm32f4_discovery_audio_codec.o [1]
+Buffer                  0x200000cc      0x8  Data  Gb  waveplayer.o [1]
+BusFault_Handler        0x080f6b07      0x2  Code  Gb  stm32f4xx_it.o [1]
+CCR_Val                 0x2000008a      0x2  Data  Gb  main.o [1]
+CODECTimeout            0x200000c0      0x4  Data  Gb  stm32f4_discovery_audio_codec.o [1]
+CSTACK$$Base            0x200000e0            --   Gb  - Linker created -
+CSTACK$$Limit           0x200004e0            --   Gb  - Linker created -
+Codec_GPIO_Init         0x080f58bd    0x10c  Code  Lc  stm32f4_discovery_audio_codec.o [1]
+Codec_Init              0x080f54a7    0x1de  Code  Lc  stm32f4_discovery_audio_codec.o [1]
+Codec_ReadRegister      0x080f5771    0x14c  Code  Lc  stm32f4_discovery_audio_codec.o [1]
+Codec_TIMEOUT_UserCallback
+                        0x080f617d      0x4  Code  Gb  waveplayer.o [1]
+Codec_WriteRegister     0x080f5685     0xea  Code  Lc  stm32f4_discovery_audio_codec.o [1]
+Count                   0x200000c9      0x1  Data  Gb  stm32f4xx_it.o [1]
+CurrAudioInterface      0x2000004c      0x4  Data  Gb  stm32f4_discovery_audio_codec.o [1]
+CurrentPos              0x20000048      0x4  Data  Gb  stm32f4_discovery_audio_codec.o [1]
+DAC_Cmd                 0x080f61dd     0x18  Code  Gb  stm32f4xx_dac.o [1]
+DAC_Config              0x080f5a9d     0x48  Code  Gb  stm32f4_discovery_audio_codec.o [1]
+DAC_Init                0x080f61b5     0x28  Code  Gb  stm32f4xx_dac.o [1]
+DAC_SetChannel1Data     0x080f61f5     0x1a  Code  Gb  stm32f4xx_dac.o [1]
+DMA1_Stream0_IRQHandler
+                        0x080f53d9     0x96  Code  Gb  stm32f4_discovery_audio_codec.o [1]
+DMA1_Stream7_IRQHandler
+                        0x080f5343     0x96  Code  Gb  stm32f4_discovery_audio_codec.o [1]
+DMA_ClearFlag           0x080f5cb7     0x1c  Code  Gb  stm32f4xx_dma.o [1]
+DMA_Cmd                 0x080f5c77     0x12  Code  Gb  stm32f4xx_dma.o [1]
+DMA_DeInit              0x080f5b49     0xdc  Code  Gb  stm32f4xx_dma.o [1]
+DMA_GetCmdStatus        0x080f5c89      0x8  Code  Gb  stm32f4xx_dma.o [1]
+DMA_GetFlagStatus       0x080f5c91     0x26  Code  Gb  stm32f4xx_dma.o [1]
+DMA_ITConfig            0x080f5cd3     0x2c  Code  Gb  stm32f4xx_dma.o [1]
+DMA_Init                0x080f5c25     0x52  Code  Gb  stm32f4xx_dma.o [1]
+DMA_InitStructure       0x20000000     0x3c  Data  Gb  stm32f4_discovery_audio_codec.o [1]
+DebugMon_Handler        0x080f6b0d      0x2  Code  Gb  stm32f4xx_it.o [1]
+EVAL_AUDIO_GetSampleCallBack
+                        0x080f6179      0x4  Code  Gb  waveplayer.o [1]
+EVAL_AUDIO_Init         0x080f5185     0x2c  Code  Gb  stm32f4_discovery_audio_codec.o [1]
+EVAL_AUDIO_PauseResume  0x080f5219     0x84  Code  Gb  stm32f4_discovery_audio_codec.o [1]
+EVAL_AUDIO_Play         0x080f51b1     0x68  Code  Gb  stm32f4_discovery_audio_codec.o [1]
+EVAL_AUDIO_SetAudioInterface
+                        0x080f5101     0x84  Code  Gb  stm32f4_discovery_audio_codec.o [1]
+EVAL_AUDIO_Stop         0x080f529d     0xa6  Code  Gb  stm32f4_discovery_audio_codec.o [1]
+EVAL_AUDIO_TransferComplete_CallBack
+                        0x080f6171      0x8  Code  Gb  waveplayer.o [1]
+EXTI1_IRQHandler        0x080f6b15     0x32  Code  Gb  stm32f4xx_it.o [1]
+EXTI_ClearITPendingBit  0x080f698d      0x6  Code  Gb  stm32f4xx_exti.o [1]
+EXTI_GetITStatus        0x080f6977     0x16  Code  Gb  stm32f4xx_exti.o [1]
+EXTI_Init               0x080f690d     0x6a  Code  Gb  stm32f4xx_exti.o [1]
+GPIO_CLK                0x080f6cb4     0x10  Data  Gb  stm32f4_discovery.o [1]
+GPIO_Init               0x080f5f25     0x72  Code  Gb  stm32f4xx_gpio.o [1]
+GPIO_PIN                0x080f6cac      0x8  Data  Gb  stm32f4_discovery.o [1]
+GPIO_PORT               0x200000a0     0x10  Data  Gb  stm32f4_discovery.o [1]
+GPIO_PinAFConfig        0x080f5fa9     0x28  Code  Gb  stm32f4xx_gpio.o [1]
+GPIO_ResetBits          0x080f5f9b      0x4  Code  Gb  stm32f4xx_gpio.o [1]
+GPIO_SetBits            0x080f5f97      0x4  Code  Gb  stm32f4xx_gpio.o [1]
+GPIO_WriteBit           0x080f5f9f      0xa  Code  Gb  stm32f4xx_gpio.o [1]
+HardFault_Handler       0x080f6b03      0x2  Code  Gb  stm32f4xx_it.o [1]
+I2C_AcknowledgeConfig   0x080f6481     0x14  Code  Gb  stm32f4xx_i2c.o [1]
+I2C_CheckEvent          0x080f649f     0x1a  Code  Gb  stm32f4xx_i2c.o [1]
+I2C_ClearFlag           0x080f64ed      0x6  Code  Gb  stm32f4xx_i2c.o [1]
+I2C_Cmd                 0x080f6435     0x14  Code  Gb  stm32f4xx_i2c.o [1]
+I2C_DeInit              0x080f6315     0x58  Code  Gb  stm32f4xx_i2c.o [1]
+I2C_GenerateSTART       0x080f6449     0x14  Code  Gb  stm32f4xx_i2c.o [1]
+I2C_GenerateSTOP        0x080f645d     0x14  Code  Gb  stm32f4xx_i2c.o [1]
+I2C_GetFlagStatus       0x080f64b9     0x34  Code  Gb  stm32f4xx_i2c.o [1]
+I2C_Init                0x080f636d     0xb4  Code  Gb  stm32f4xx_i2c.o [1]
+I2C_ReceiveData         0x080f6499      0x6  Code  Gb  stm32f4xx_i2c.o [1]
+I2C_Send7bitAddress     0x080f6471     0x10  Code  Gb  stm32f4xx_i2c.o [1]
+I2C_SendData            0x080f6495      0x4  Code  Gb  stm32f4xx_i2c.o [1]
+I2S_Cmd                 0x080f5ed1     0x14  Code  Gb  stm32f4xx_spi.o [1]
+I2S_Init                0x080f5df5     0xb4  Code  Gb  stm32f4xx_spi.o [1]
+LED_Toggle              0x200000d4      0x1  Data  Gb  stm32f4xx_it.o [1]
+LIS302DLTimeout         0x200000c4      0x4  Data  Gb  stm32f4_discovery_lis302dl.o [1]
+LIS302DL_Init           0x080f659d     0x44  Code  Gb  stm32f4_discovery_lis302dl.o [1]
+LIS302DL_InterruptConfig
+                        0x080f65e1     0x54  Code  Gb  stm32f4_discovery_lis302dl.o [1]
+LIS302DL_LowLevel_Init  0x080f6749    0x128  Code  Lc  stm32f4_discovery_lis302dl.o [1]
+LIS302DL_Read           0x080f66bd     0x8c  Code  Gb  stm32f4_discovery_lis302dl.o [1]
+LIS302DL_SendByte       0x080f6871     0x62  Code  Lc  stm32f4_discovery_lis302dl.o [1]
+LIS302DL_TIMEOUT_UserCallback
+                        0x080f616f      0x2  Code  Gb  waveplayer.o [1]
+LIS302DL_Write          0x080f6635     0x88  Code  Gb  stm32f4_discovery_lis302dl.o [1]
+MemManage_Handler       0x080f6b05      0x2  Code  Gb  stm32f4xx_it.o [1]
+NMI_Handler             0x080f6b01      0x2  Code  Gb  stm32f4xx_it.o [1]
+NVIC_Init               0x080f652b     0x5c  Code  Gb  misc.o [1]
+NVIC_PriorityGroupConfig
+                        0x080f6521      0xa  Code  Gb  misc.o [1]
+OutputDev               0x2000003c      0x1  Data  Gb  stm32f4_discovery_audio_codec.o [1]
+PauseResumeStatus       0x200000c8      0x1  Data  Gb  stm32f4xx_it.o [1]
+PendSV_Handler          0x080f6b0f      0x2  Code  Gb  stm32f4xx_it.o [1]
+RCC_AHB1PeriphClockCmd  0x080f6297     0x12  Code  Gb  stm32f4xx_rcc.o [1]
+RCC_APB1PeriphClockCmd  0x080f62a9     0x12  Code  Gb  stm32f4xx_rcc.o [1]
+RCC_APB1PeriphResetCmd  0x080f62cd     0x12  Code  Gb  stm32f4xx_rcc.o [1]
+RCC_APB2PeriphClockCmd  0x080f62bb     0x12  Code  Gb  stm32f4xx_rcc.o [1]
+RCC_APB2PeriphResetCmd  0x080f62df     0x12  Code  Gb  stm32f4xx_rcc.o [1]
+RCC_Clocks              0x20000078     0x10  Data  Gb  main.o [1]
+RCC_GetClocksFreq       0x080f6215     0x82  Code  Gb  stm32f4xx_rcc.o [1]
+Region$$Table$$Base     0x080f6f3c            --   Gb  - Linker created -
+Region$$Table$$Limit    0x080f6f60            --   Gb  - Linker created -
+RepeatState             0x20000088      0x1  Data  Gb  main.o [1]
+SPI3_IRQHandler         0x080f546f     0x38  Code  Gb  stm32f4_discovery_audio_codec.o [1]
+SPI_Cmd                 0x080f5ebd     0x14  Code  Gb  stm32f4xx_spi.o [1]
+SPI_I2S_DMACmd          0x080f5eed     0x10  Code  Gb  stm32f4xx_spi.o [1]
+SPI_I2S_DeInit          0x080f5d5d     0x60  Code  Gb  stm32f4xx_spi.o [1]
+SPI_I2S_GetFlagStatus   0x080f5f17      0xe  Code  Gb  stm32f4xx_spi.o [1]
+SPI_I2S_ITConfig        0x080f5efd     0x1a  Code  Gb  stm32f4xx_spi.o [1]
+SPI_I2S_ReceiveData     0x080f5ee5      0x4  Code  Gb  stm32f4xx_spi.o [1]
+SPI_I2S_SendData        0x080f5ee9      0x4  Code  Gb  stm32f4xx_spi.o [1]
+SPI_Init                0x080f5dbd     0x38  Code  Gb  stm32f4xx_spi.o [1]
+STM_EVAL_LEDInit        0x080f6c29     0x46  Code  Gb  stm32f4_discovery.o [1]
+STM_EVAL_LEDOff         0x080f6c81     0x12  Code  Gb  stm32f4_discovery.o [1]
+STM_EVAL_LEDOn          0x080f6c6f     0x12  Code  Gb  stm32f4_discovery.o [1]
+STM_EVAL_LEDToggle      0x080f6c93     0x16  Code  Gb  stm32f4_discovery.o [1]
+SVC_Handler             0x080f6b0b      0x2  Code  Gb  stm32f4xx_it.o [1]
+SYSCFG_EXTILineConfig   0x080f68e5     0x24  Code  Gb  stm32f4xx_syscfg.o [1]
+SysTick_Handler         0x080f6b11      0x4  Code  Gb  stm32f4xx_it.o [1]
+SystemCoreClock         0x2000008c      0x4  Data  Gb  system_stm32f4xx.o [1]
+SystemInit              0x080f6de9     0xec  Code  Gb  system_stm32f4xx.o [1]
+TIM4_IRQHandler         0x080f6b47     0xc8  Code  Gb  stm32f4xx_it.o [1]
+TIM_ARRPreloadConfig    0x080f6a17     0x14  Code  Gb  stm32f4xx_tim.o [1]
+TIM_ClearITPendingBit   0x080f6afb      0x6  Code  Gb  stm32f4xx_tim.o [1]
+TIM_Cmd                 0x080f6a2b     0x14  Code  Gb  stm32f4xx_tim.o [1]
+TIM_GetCapture1         0x080f6ad3      0x4  Code  Gb  stm32f4xx_tim.o [1]
+TIM_GetITStatus         0x080f6ae7     0x14  Code  Gb  stm32f4xx_tim.o [1]
+TIM_ITConfig            0x080f6ad7     0x10  Code  Gb  stm32f4xx_tim.o [1]
+TIM_OC1Init             0x080f6a3f     0x66  Code  Gb  stm32f4xx_tim.o [1]
+TIM_OC1PreloadConfig    0x080f6ac5      0xe  Code  Gb  stm32f4xx_tim.o [1]
+TIM_SetCompare1         0x080f6ac1      0x4  Code  Gb  stm32f4xx_tim.o [1]
+TIM_TimeBaseInit        0x080f699d     0x7a  Code  Gb  stm32f4xx_tim.o [1]
+TimingDelay             0x200000d8      0x4  Data  Lc  waveplayer.o [1]
+TimingDelay_Decrement   0x080f6181      0xe  Code  Gb  waveplayer.o [1]
+UsageFault_Handler      0x080f6b09      0x2  Code  Gb  stm32f4xx_it.o [1]
+WavePlayBack            0x080f5fd1     0x50  Code  Gb  waveplayer.o [1]
+WavePlayerInit          0x080f6021    0x14e  Code  Gb  waveplayer.o [1]
+__cmain                 0x080f6f7d           Code  Gb  cmain.o [5]
+__exit                  0x080f6fad     0x14  Code  Gb  exit.o [6]
+__iar_copy_init3        0x080f64f3     0x2e  Code  Gb  copy_init3.o [5]
+__iar_data_init3        0x080f6ef1     0x28  Code  Gb  data_init.o [5]
+__iar_init_vfp          0x080f6f61           Code  Gb  fpinit_M.o [4]
+__iar_program_start     0x080f6fd1           Code  Gb  cstartup_M.o [5]
+__iar_zero_init3        0x080f6f19     0x22  Code  Gb  zero_init3.o [5]
+__low_level_init        0x080f6f97      0x4  Code  Gb  low_level_init.o [3]
+__vector_table          0x08000000           Data  Gb  startup_stm32f4xx.o [1]
+_call_main              0x080f6f89           Code  Gb  cmain.o [5]
+_exit                   0x080f6fa1           Code  Gb  cexit.o [5]
+_main                   0x080f6f93           Code  Gb  cmain.o [5]
+capture                 0x200000d6      0x2  Data  Gb  stm32f4xx_it.o [1]
+exit                    0x080f6f9b      0x4  Code  Gb  exit.o [3]
+main                    0x080f6cc5    0x124  Code  Gb  main.o [1]
+volume                  0x200000ca      0x1  Data  Gb  waveplayer.o [1]
+
+
+[1] = C:\Users\yedapeng\Downloads\stsw-stm32068.zip\STM32F4-Discovery_FW_V1.1.0\Project\Audio_playback_and_record\EWARM\MEDIA_IntFLASH\Obj
+[2] = command line
+[3] = dl7M_tln.a
+[4] = m7M_tlv.a
+[5] = rt7M_tl.a
+[6] = shb_l.a
+
+      8 562 bytes of readonly  code memory
+  1 003 626 bytes of readonly  data memory
+      1 244 bytes of readwrite data memory
+
+Errors: none
+Warnings: none
